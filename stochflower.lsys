@@ -1,0 +1,34 @@
+iterations = 5
+delta = 18
+base = p
+initial_colour = dark_green
+width = 0.01
+size = 0.05
+
+plant
+p -> i+[p+t]--//[--l]i[++l]-[pt]++pt
+internode
+i -> Fs[//&&l][//^^l]Fs
+seg
+s 0.33 -> s[//&&l][//^^l]Fs
+s 0.33 -> sFs
+s 0.34 -> s
+leaf
+l -> [G{+f-ff-f+|+f-ff-f}]
+flower
+t -> [&&&PC/w////w////w////w////w]
+pedicel
+P -> FF
+wedge
+w -> [^F][{&&&&-f+f|-f+f}]
+
+colour
+C 0.33 -> W
+C 0.33 -> B
+C 0.34 -> R
+
+colour B blue
+colour W white
+colour R pink
+colour G green
+colour D dark_green

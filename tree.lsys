@@ -1,0 +1,16 @@
+delta = 22.5
+iterations = 8
+base = A
+width = 0.1
+width_inc = 0.02
+size = 0.3
+initial_colour = brown
+
+A -> [&F[DL]!A]/////[&F[GL]!A]///////[&F[GL]!A]
+F -> S ///// F
+S -> F [DL]
+L -> [^^{-f+f+f-|-f+f+f}]
+
+colour G green
+colour B brown
+colour D dark_green

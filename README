@@ -1,0 +1,6 @@
+A simple interpreter and renderer for 3D L-systems.
+
+Requirements:
+- Ruby
+- Ruby's OpenGL bindings
+- andand gem
