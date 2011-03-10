@@ -1,4 +1,5 @@
-A simple interpreter and renderer for 3D L-systems.
+A simple interpreter and renderer for 3D L-systems. This is based on
+the book "The Algorithmic Beauty of Plants" by Prusinkiewicz & Lindenmayer.
 
 Requirements:
 - Ruby
